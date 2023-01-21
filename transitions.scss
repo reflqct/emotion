@@ -1,4 +1,4 @@
-$itr: 025, 050, 075, 100, 150, 200, 300, 400, 500, 600, 700, 750, 800, 900, 950, 1000, 2000, 4000, 6000, 8000, 10000, 12000, 14000, 16000, 18000, 20000, 22000, 24000;
+$itr: 25, 50, 75, 100, 150, 200, 300, 400, 500, 600, 700, 750, 800, 900, 950, 1000, 2000, 4000, 6000, 8000, 10000, 12000, 14000, 16000, 18000, 20000, 22000, 24000;
 
 .no-transition {
     transition-property: none;
@@ -13,5 +13,132 @@ $itr: 025, 050, 075, 100, 150, 200, 300, 400, 500, 600, 700, 750, 800, 900, 950,
         transition-duration: #{$ite * 1000};
     }
 
-    
+    .linear {
+        transition-timing-function: linear;
+    }
+
+    .transition-color-#{$ite} {
+        transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+        transition-duration: #{$ite};
+    }
+
+    .transition-size-#{$ite} {
+        transition-property: width, height;
+        transition-duration: #{$ite};
+    }
+
+    .transition-width-#{$ite} {
+        transition-property: width;
+        transition-duration: #{$ite};
+    }
+
+    .transition-height-#{$ite} {
+        transition-property: height;
+        transition-duration: #{$ite};
+    }
+
+    .transition-location-#{$ite} {
+        transition-property: left, right, align, text-align, padding, margin;
+        transition-duration: #{$ite};
+    }
+
+    .transition-left-#{$ite} {
+        transition-property: left;
+        transition-duration: #{$ite};
+    }
+
+    .transition-right-#{$ite} {
+        transition-property: right;
+        transition-duration: #{$ite};
+    }
+
+    .transition-align-#{$ite} {
+        transition-property: align, text-align;
+        transition-duration: #{$ite};
+    }
+
+    .transition-rel-#{$ite} {
+        transition-property: padding, margin;
+        transition-duration: #{$ite};
+    }
+
+    .ani-come-#{$ite} {
+        animation: come #{$ite}ms linear;
+
+        @keyframes come {
+            0% {
+                opacity: 1;
+            } 100% {
+                scale: 100;
+                opacity: 0;
+            }
+        }
+    }
+
+    .ani-come-retain-#{$ite} {
+        animation: come #{$ite}ms linear;
+
+        @keyframes come {
+            0% {
+                opacity: 1;
+            } 100% {
+                scale: 100;
+            }
+        }
+    }
+
+    .ani-go-#{$ite} {
+        animation: go #{$ite}ms linear;
+
+        @keyframes go {
+            0% {
+                opacity: 1;
+            } 100% {
+                opacity: 0;
+                scale: 0;
+            }
+        }
+    }
+
+    .ani-bounce-#{$ite} {
+        animation: bounce #{$ite}ms infinite;
+
+        @keyframes bounce {
+        0%, 100% {
+            transform: translateY(-25%);
+            animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+        }
+        50% {
+            transform: translateY(0);
+            animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+        }
+        }
+    }
+
+    .ani-bounce-single-#{$ite} {
+        animation: bounce #{$ite}ms linear;
+
+        @keyframes bounce {
+        0%, 100% {
+            transform: translateY(-25%);
+            animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+        }
+        50% {
+            transform: translateY(0);
+            animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+        }
+        }
+    }
+}
+
+.ease-in {
+    transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
+.ease-out {
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+.ease {
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }

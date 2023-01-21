@@ -1,0 +1,3459 @@
+.no-transition {
+  transition-property: none;
+}
+
+.transition-delay-25 {
+  transition-delay: 25;
+}
+
+.transition-length-25 {
+  transition-duration: 25000;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.transition-color-25 {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 25;
+}
+
+.transition-size-25 {
+  transition-property: width, height;
+  transition-duration: 25;
+}
+
+.transition-width-25 {
+  transition-property: width;
+  transition-duration: 25;
+}
+
+.transition-height-25 {
+  transition-property: height;
+  transition-duration: 25;
+}
+
+.transition-location-25 {
+  transition-property: left, right, align, text-align, padding, margin;
+  transition-duration: 25;
+}
+
+.transition-left-25 {
+  transition-property: left;
+  transition-duration: 25;
+}
+
+.transition-right-25 {
+  transition-property: right;
+  transition-duration: 25;
+}
+
+.transition-align-25 {
+  transition-property: align, text-align;
+  transition-duration: 25;
+}
+
+.transition-rel-25 {
+  transition-property: padding, margin;
+  transition-duration: 25;
+}
+
+.ani-come-25 {
+  animation: come 25ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+    opacity: 0;
+  }
+}
+
+.ani-come-retain-25 {
+  animation: come 25ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+  }
+}
+
+.ani-go-25 {
+  animation: go 25ms linear;
+}
+@keyframes go {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    scale: 0;
+  }
+}
+
+.ani-bounce-25 {
+  animation: bounce 25ms infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.ani-bounce-single-25 {
+  animation: bounce 25ms linear;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.transition-delay-50 {
+  transition-delay: 50;
+}
+
+.transition-length-50 {
+  transition-duration: 50000;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.transition-color-50 {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 50;
+}
+
+.transition-size-50 {
+  transition-property: width, height;
+  transition-duration: 50;
+}
+
+.transition-width-50 {
+  transition-property: width;
+  transition-duration: 50;
+}
+
+.transition-height-50 {
+  transition-property: height;
+  transition-duration: 50;
+}
+
+.transition-location-50 {
+  transition-property: left, right, align, text-align, padding, margin;
+  transition-duration: 50;
+}
+
+.transition-left-50 {
+  transition-property: left;
+  transition-duration: 50;
+}
+
+.transition-right-50 {
+  transition-property: right;
+  transition-duration: 50;
+}
+
+.transition-align-50 {
+  transition-property: align, text-align;
+  transition-duration: 50;
+}
+
+.transition-rel-50 {
+  transition-property: padding, margin;
+  transition-duration: 50;
+}
+
+.ani-come-50 {
+  animation: come 50ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+    opacity: 0;
+  }
+}
+
+.ani-come-retain-50 {
+  animation: come 50ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+  }
+}
+
+.ani-go-50 {
+  animation: go 50ms linear;
+}
+@keyframes go {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    scale: 0;
+  }
+}
+
+.ani-bounce-50 {
+  animation: bounce 50ms infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.ani-bounce-single-50 {
+  animation: bounce 50ms linear;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.transition-delay-75 {
+  transition-delay: 75;
+}
+
+.transition-length-75 {
+  transition-duration: 75000;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.transition-color-75 {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 75;
+}
+
+.transition-size-75 {
+  transition-property: width, height;
+  transition-duration: 75;
+}
+
+.transition-width-75 {
+  transition-property: width;
+  transition-duration: 75;
+}
+
+.transition-height-75 {
+  transition-property: height;
+  transition-duration: 75;
+}
+
+.transition-location-75 {
+  transition-property: left, right, align, text-align, padding, margin;
+  transition-duration: 75;
+}
+
+.transition-left-75 {
+  transition-property: left;
+  transition-duration: 75;
+}
+
+.transition-right-75 {
+  transition-property: right;
+  transition-duration: 75;
+}
+
+.transition-align-75 {
+  transition-property: align, text-align;
+  transition-duration: 75;
+}
+
+.transition-rel-75 {
+  transition-property: padding, margin;
+  transition-duration: 75;
+}
+
+.ani-come-75 {
+  animation: come 75ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+    opacity: 0;
+  }
+}
+
+.ani-come-retain-75 {
+  animation: come 75ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+  }
+}
+
+.ani-go-75 {
+  animation: go 75ms linear;
+}
+@keyframes go {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    scale: 0;
+  }
+}
+
+.ani-bounce-75 {
+  animation: bounce 75ms infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.ani-bounce-single-75 {
+  animation: bounce 75ms linear;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.transition-delay-100 {
+  transition-delay: 100;
+}
+
+.transition-length-100 {
+  transition-duration: 100000;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.transition-color-100 {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 100;
+}
+
+.transition-size-100 {
+  transition-property: width, height;
+  transition-duration: 100;
+}
+
+.transition-width-100 {
+  transition-property: width;
+  transition-duration: 100;
+}
+
+.transition-height-100 {
+  transition-property: height;
+  transition-duration: 100;
+}
+
+.transition-location-100 {
+  transition-property: left, right, align, text-align, padding, margin;
+  transition-duration: 100;
+}
+
+.transition-left-100 {
+  transition-property: left;
+  transition-duration: 100;
+}
+
+.transition-right-100 {
+  transition-property: right;
+  transition-duration: 100;
+}
+
+.transition-align-100 {
+  transition-property: align, text-align;
+  transition-duration: 100;
+}
+
+.transition-rel-100 {
+  transition-property: padding, margin;
+  transition-duration: 100;
+}
+
+.ani-come-100 {
+  animation: come 100ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+    opacity: 0;
+  }
+}
+
+.ani-come-retain-100 {
+  animation: come 100ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+  }
+}
+
+.ani-go-100 {
+  animation: go 100ms linear;
+}
+@keyframes go {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    scale: 0;
+  }
+}
+
+.ani-bounce-100 {
+  animation: bounce 100ms infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.ani-bounce-single-100 {
+  animation: bounce 100ms linear;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.transition-delay-150 {
+  transition-delay: 150;
+}
+
+.transition-length-150 {
+  transition-duration: 150000;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.transition-color-150 {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 150;
+}
+
+.transition-size-150 {
+  transition-property: width, height;
+  transition-duration: 150;
+}
+
+.transition-width-150 {
+  transition-property: width;
+  transition-duration: 150;
+}
+
+.transition-height-150 {
+  transition-property: height;
+  transition-duration: 150;
+}
+
+.transition-location-150 {
+  transition-property: left, right, align, text-align, padding, margin;
+  transition-duration: 150;
+}
+
+.transition-left-150 {
+  transition-property: left;
+  transition-duration: 150;
+}
+
+.transition-right-150 {
+  transition-property: right;
+  transition-duration: 150;
+}
+
+.transition-align-150 {
+  transition-property: align, text-align;
+  transition-duration: 150;
+}
+
+.transition-rel-150 {
+  transition-property: padding, margin;
+  transition-duration: 150;
+}
+
+.ani-come-150 {
+  animation: come 150ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+    opacity: 0;
+  }
+}
+
+.ani-come-retain-150 {
+  animation: come 150ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+  }
+}
+
+.ani-go-150 {
+  animation: go 150ms linear;
+}
+@keyframes go {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    scale: 0;
+  }
+}
+
+.ani-bounce-150 {
+  animation: bounce 150ms infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.ani-bounce-single-150 {
+  animation: bounce 150ms linear;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.transition-delay-200 {
+  transition-delay: 200;
+}
+
+.transition-length-200 {
+  transition-duration: 200000;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.transition-color-200 {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 200;
+}
+
+.transition-size-200 {
+  transition-property: width, height;
+  transition-duration: 200;
+}
+
+.transition-width-200 {
+  transition-property: width;
+  transition-duration: 200;
+}
+
+.transition-height-200 {
+  transition-property: height;
+  transition-duration: 200;
+}
+
+.transition-location-200 {
+  transition-property: left, right, align, text-align, padding, margin;
+  transition-duration: 200;
+}
+
+.transition-left-200 {
+  transition-property: left;
+  transition-duration: 200;
+}
+
+.transition-right-200 {
+  transition-property: right;
+  transition-duration: 200;
+}
+
+.transition-align-200 {
+  transition-property: align, text-align;
+  transition-duration: 200;
+}
+
+.transition-rel-200 {
+  transition-property: padding, margin;
+  transition-duration: 200;
+}
+
+.ani-come-200 {
+  animation: come 200ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+    opacity: 0;
+  }
+}
+
+.ani-come-retain-200 {
+  animation: come 200ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+  }
+}
+
+.ani-go-200 {
+  animation: go 200ms linear;
+}
+@keyframes go {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    scale: 0;
+  }
+}
+
+.ani-bounce-200 {
+  animation: bounce 200ms infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.ani-bounce-single-200 {
+  animation: bounce 200ms linear;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.transition-delay-300 {
+  transition-delay: 300;
+}
+
+.transition-length-300 {
+  transition-duration: 300000;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.transition-color-300 {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 300;
+}
+
+.transition-size-300 {
+  transition-property: width, height;
+  transition-duration: 300;
+}
+
+.transition-width-300 {
+  transition-property: width;
+  transition-duration: 300;
+}
+
+.transition-height-300 {
+  transition-property: height;
+  transition-duration: 300;
+}
+
+.transition-location-300 {
+  transition-property: left, right, align, text-align, padding, margin;
+  transition-duration: 300;
+}
+
+.transition-left-300 {
+  transition-property: left;
+  transition-duration: 300;
+}
+
+.transition-right-300 {
+  transition-property: right;
+  transition-duration: 300;
+}
+
+.transition-align-300 {
+  transition-property: align, text-align;
+  transition-duration: 300;
+}
+
+.transition-rel-300 {
+  transition-property: padding, margin;
+  transition-duration: 300;
+}
+
+.ani-come-300 {
+  animation: come 300ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+    opacity: 0;
+  }
+}
+
+.ani-come-retain-300 {
+  animation: come 300ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+  }
+}
+
+.ani-go-300 {
+  animation: go 300ms linear;
+}
+@keyframes go {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    scale: 0;
+  }
+}
+
+.ani-bounce-300 {
+  animation: bounce 300ms infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.ani-bounce-single-300 {
+  animation: bounce 300ms linear;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.transition-delay-400 {
+  transition-delay: 400;
+}
+
+.transition-length-400 {
+  transition-duration: 400000;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.transition-color-400 {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 400;
+}
+
+.transition-size-400 {
+  transition-property: width, height;
+  transition-duration: 400;
+}
+
+.transition-width-400 {
+  transition-property: width;
+  transition-duration: 400;
+}
+
+.transition-height-400 {
+  transition-property: height;
+  transition-duration: 400;
+}
+
+.transition-location-400 {
+  transition-property: left, right, align, text-align, padding, margin;
+  transition-duration: 400;
+}
+
+.transition-left-400 {
+  transition-property: left;
+  transition-duration: 400;
+}
+
+.transition-right-400 {
+  transition-property: right;
+  transition-duration: 400;
+}
+
+.transition-align-400 {
+  transition-property: align, text-align;
+  transition-duration: 400;
+}
+
+.transition-rel-400 {
+  transition-property: padding, margin;
+  transition-duration: 400;
+}
+
+.ani-come-400 {
+  animation: come 400ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+    opacity: 0;
+  }
+}
+
+.ani-come-retain-400 {
+  animation: come 400ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+  }
+}
+
+.ani-go-400 {
+  animation: go 400ms linear;
+}
+@keyframes go {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    scale: 0;
+  }
+}
+
+.ani-bounce-400 {
+  animation: bounce 400ms infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.ani-bounce-single-400 {
+  animation: bounce 400ms linear;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.transition-delay-500 {
+  transition-delay: 500;
+}
+
+.transition-length-500 {
+  transition-duration: 500000;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.transition-color-500 {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 500;
+}
+
+.transition-size-500 {
+  transition-property: width, height;
+  transition-duration: 500;
+}
+
+.transition-width-500 {
+  transition-property: width;
+  transition-duration: 500;
+}
+
+.transition-height-500 {
+  transition-property: height;
+  transition-duration: 500;
+}
+
+.transition-location-500 {
+  transition-property: left, right, align, text-align, padding, margin;
+  transition-duration: 500;
+}
+
+.transition-left-500 {
+  transition-property: left;
+  transition-duration: 500;
+}
+
+.transition-right-500 {
+  transition-property: right;
+  transition-duration: 500;
+}
+
+.transition-align-500 {
+  transition-property: align, text-align;
+  transition-duration: 500;
+}
+
+.transition-rel-500 {
+  transition-property: padding, margin;
+  transition-duration: 500;
+}
+
+.ani-come-500 {
+  animation: come 500ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+    opacity: 0;
+  }
+}
+
+.ani-come-retain-500 {
+  animation: come 500ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+  }
+}
+
+.ani-go-500 {
+  animation: go 500ms linear;
+}
+@keyframes go {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    scale: 0;
+  }
+}
+
+.ani-bounce-500 {
+  animation: bounce 500ms infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.ani-bounce-single-500 {
+  animation: bounce 500ms linear;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.transition-delay-600 {
+  transition-delay: 600;
+}
+
+.transition-length-600 {
+  transition-duration: 600000;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.transition-color-600 {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 600;
+}
+
+.transition-size-600 {
+  transition-property: width, height;
+  transition-duration: 600;
+}
+
+.transition-width-600 {
+  transition-property: width;
+  transition-duration: 600;
+}
+
+.transition-height-600 {
+  transition-property: height;
+  transition-duration: 600;
+}
+
+.transition-location-600 {
+  transition-property: left, right, align, text-align, padding, margin;
+  transition-duration: 600;
+}
+
+.transition-left-600 {
+  transition-property: left;
+  transition-duration: 600;
+}
+
+.transition-right-600 {
+  transition-property: right;
+  transition-duration: 600;
+}
+
+.transition-align-600 {
+  transition-property: align, text-align;
+  transition-duration: 600;
+}
+
+.transition-rel-600 {
+  transition-property: padding, margin;
+  transition-duration: 600;
+}
+
+.ani-come-600 {
+  animation: come 600ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+    opacity: 0;
+  }
+}
+
+.ani-come-retain-600 {
+  animation: come 600ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+  }
+}
+
+.ani-go-600 {
+  animation: go 600ms linear;
+}
+@keyframes go {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    scale: 0;
+  }
+}
+
+.ani-bounce-600 {
+  animation: bounce 600ms infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.ani-bounce-single-600 {
+  animation: bounce 600ms linear;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.transition-delay-700 {
+  transition-delay: 700;
+}
+
+.transition-length-700 {
+  transition-duration: 700000;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.transition-color-700 {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 700;
+}
+
+.transition-size-700 {
+  transition-property: width, height;
+  transition-duration: 700;
+}
+
+.transition-width-700 {
+  transition-property: width;
+  transition-duration: 700;
+}
+
+.transition-height-700 {
+  transition-property: height;
+  transition-duration: 700;
+}
+
+.transition-location-700 {
+  transition-property: left, right, align, text-align, padding, margin;
+  transition-duration: 700;
+}
+
+.transition-left-700 {
+  transition-property: left;
+  transition-duration: 700;
+}
+
+.transition-right-700 {
+  transition-property: right;
+  transition-duration: 700;
+}
+
+.transition-align-700 {
+  transition-property: align, text-align;
+  transition-duration: 700;
+}
+
+.transition-rel-700 {
+  transition-property: padding, margin;
+  transition-duration: 700;
+}
+
+.ani-come-700 {
+  animation: come 700ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+    opacity: 0;
+  }
+}
+
+.ani-come-retain-700 {
+  animation: come 700ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+  }
+}
+
+.ani-go-700 {
+  animation: go 700ms linear;
+}
+@keyframes go {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    scale: 0;
+  }
+}
+
+.ani-bounce-700 {
+  animation: bounce 700ms infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.ani-bounce-single-700 {
+  animation: bounce 700ms linear;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.transition-delay-750 {
+  transition-delay: 750;
+}
+
+.transition-length-750 {
+  transition-duration: 750000;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.transition-color-750 {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 750;
+}
+
+.transition-size-750 {
+  transition-property: width, height;
+  transition-duration: 750;
+}
+
+.transition-width-750 {
+  transition-property: width;
+  transition-duration: 750;
+}
+
+.transition-height-750 {
+  transition-property: height;
+  transition-duration: 750;
+}
+
+.transition-location-750 {
+  transition-property: left, right, align, text-align, padding, margin;
+  transition-duration: 750;
+}
+
+.transition-left-750 {
+  transition-property: left;
+  transition-duration: 750;
+}
+
+.transition-right-750 {
+  transition-property: right;
+  transition-duration: 750;
+}
+
+.transition-align-750 {
+  transition-property: align, text-align;
+  transition-duration: 750;
+}
+
+.transition-rel-750 {
+  transition-property: padding, margin;
+  transition-duration: 750;
+}
+
+.ani-come-750 {
+  animation: come 750ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+    opacity: 0;
+  }
+}
+
+.ani-come-retain-750 {
+  animation: come 750ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+  }
+}
+
+.ani-go-750 {
+  animation: go 750ms linear;
+}
+@keyframes go {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    scale: 0;
+  }
+}
+
+.ani-bounce-750 {
+  animation: bounce 750ms infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.ani-bounce-single-750 {
+  animation: bounce 750ms linear;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.transition-delay-800 {
+  transition-delay: 800;
+}
+
+.transition-length-800 {
+  transition-duration: 800000;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.transition-color-800 {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 800;
+}
+
+.transition-size-800 {
+  transition-property: width, height;
+  transition-duration: 800;
+}
+
+.transition-width-800 {
+  transition-property: width;
+  transition-duration: 800;
+}
+
+.transition-height-800 {
+  transition-property: height;
+  transition-duration: 800;
+}
+
+.transition-location-800 {
+  transition-property: left, right, align, text-align, padding, margin;
+  transition-duration: 800;
+}
+
+.transition-left-800 {
+  transition-property: left;
+  transition-duration: 800;
+}
+
+.transition-right-800 {
+  transition-property: right;
+  transition-duration: 800;
+}
+
+.transition-align-800 {
+  transition-property: align, text-align;
+  transition-duration: 800;
+}
+
+.transition-rel-800 {
+  transition-property: padding, margin;
+  transition-duration: 800;
+}
+
+.ani-come-800 {
+  animation: come 800ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+    opacity: 0;
+  }
+}
+
+.ani-come-retain-800 {
+  animation: come 800ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+  }
+}
+
+.ani-go-800 {
+  animation: go 800ms linear;
+}
+@keyframes go {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    scale: 0;
+  }
+}
+
+.ani-bounce-800 {
+  animation: bounce 800ms infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.ani-bounce-single-800 {
+  animation: bounce 800ms linear;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.transition-delay-900 {
+  transition-delay: 900;
+}
+
+.transition-length-900 {
+  transition-duration: 900000;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.transition-color-900 {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 900;
+}
+
+.transition-size-900 {
+  transition-property: width, height;
+  transition-duration: 900;
+}
+
+.transition-width-900 {
+  transition-property: width;
+  transition-duration: 900;
+}
+
+.transition-height-900 {
+  transition-property: height;
+  transition-duration: 900;
+}
+
+.transition-location-900 {
+  transition-property: left, right, align, text-align, padding, margin;
+  transition-duration: 900;
+}
+
+.transition-left-900 {
+  transition-property: left;
+  transition-duration: 900;
+}
+
+.transition-right-900 {
+  transition-property: right;
+  transition-duration: 900;
+}
+
+.transition-align-900 {
+  transition-property: align, text-align;
+  transition-duration: 900;
+}
+
+.transition-rel-900 {
+  transition-property: padding, margin;
+  transition-duration: 900;
+}
+
+.ani-come-900 {
+  animation: come 900ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+    opacity: 0;
+  }
+}
+
+.ani-come-retain-900 {
+  animation: come 900ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+  }
+}
+
+.ani-go-900 {
+  animation: go 900ms linear;
+}
+@keyframes go {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    scale: 0;
+  }
+}
+
+.ani-bounce-900 {
+  animation: bounce 900ms infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.ani-bounce-single-900 {
+  animation: bounce 900ms linear;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.transition-delay-950 {
+  transition-delay: 950;
+}
+
+.transition-length-950 {
+  transition-duration: 950000;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.transition-color-950 {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 950;
+}
+
+.transition-size-950 {
+  transition-property: width, height;
+  transition-duration: 950;
+}
+
+.transition-width-950 {
+  transition-property: width;
+  transition-duration: 950;
+}
+
+.transition-height-950 {
+  transition-property: height;
+  transition-duration: 950;
+}
+
+.transition-location-950 {
+  transition-property: left, right, align, text-align, padding, margin;
+  transition-duration: 950;
+}
+
+.transition-left-950 {
+  transition-property: left;
+  transition-duration: 950;
+}
+
+.transition-right-950 {
+  transition-property: right;
+  transition-duration: 950;
+}
+
+.transition-align-950 {
+  transition-property: align, text-align;
+  transition-duration: 950;
+}
+
+.transition-rel-950 {
+  transition-property: padding, margin;
+  transition-duration: 950;
+}
+
+.ani-come-950 {
+  animation: come 950ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+    opacity: 0;
+  }
+}
+
+.ani-come-retain-950 {
+  animation: come 950ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+  }
+}
+
+.ani-go-950 {
+  animation: go 950ms linear;
+}
+@keyframes go {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    scale: 0;
+  }
+}
+
+.ani-bounce-950 {
+  animation: bounce 950ms infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.ani-bounce-single-950 {
+  animation: bounce 950ms linear;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.transition-delay-1000 {
+  transition-delay: 1000;
+}
+
+.transition-length-1000 {
+  transition-duration: 1000000;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.transition-color-1000 {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 1000;
+}
+
+.transition-size-1000 {
+  transition-property: width, height;
+  transition-duration: 1000;
+}
+
+.transition-width-1000 {
+  transition-property: width;
+  transition-duration: 1000;
+}
+
+.transition-height-1000 {
+  transition-property: height;
+  transition-duration: 1000;
+}
+
+.transition-location-1000 {
+  transition-property: left, right, align, text-align, padding, margin;
+  transition-duration: 1000;
+}
+
+.transition-left-1000 {
+  transition-property: left;
+  transition-duration: 1000;
+}
+
+.transition-right-1000 {
+  transition-property: right;
+  transition-duration: 1000;
+}
+
+.transition-align-1000 {
+  transition-property: align, text-align;
+  transition-duration: 1000;
+}
+
+.transition-rel-1000 {
+  transition-property: padding, margin;
+  transition-duration: 1000;
+}
+
+.ani-come-1000 {
+  animation: come 1000ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+    opacity: 0;
+  }
+}
+
+.ani-come-retain-1000 {
+  animation: come 1000ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+  }
+}
+
+.ani-go-1000 {
+  animation: go 1000ms linear;
+}
+@keyframes go {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    scale: 0;
+  }
+}
+
+.ani-bounce-1000 {
+  animation: bounce 1000ms infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.ani-bounce-single-1000 {
+  animation: bounce 1000ms linear;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.transition-delay-2000 {
+  transition-delay: 2000;
+}
+
+.transition-length-2000 {
+  transition-duration: 2000000;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.transition-color-2000 {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 2000;
+}
+
+.transition-size-2000 {
+  transition-property: width, height;
+  transition-duration: 2000;
+}
+
+.transition-width-2000 {
+  transition-property: width;
+  transition-duration: 2000;
+}
+
+.transition-height-2000 {
+  transition-property: height;
+  transition-duration: 2000;
+}
+
+.transition-location-2000 {
+  transition-property: left, right, align, text-align, padding, margin;
+  transition-duration: 2000;
+}
+
+.transition-left-2000 {
+  transition-property: left;
+  transition-duration: 2000;
+}
+
+.transition-right-2000 {
+  transition-property: right;
+  transition-duration: 2000;
+}
+
+.transition-align-2000 {
+  transition-property: align, text-align;
+  transition-duration: 2000;
+}
+
+.transition-rel-2000 {
+  transition-property: padding, margin;
+  transition-duration: 2000;
+}
+
+.ani-come-2000 {
+  animation: come 2000ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+    opacity: 0;
+  }
+}
+
+.ani-come-retain-2000 {
+  animation: come 2000ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+  }
+}
+
+.ani-go-2000 {
+  animation: go 2000ms linear;
+}
+@keyframes go {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    scale: 0;
+  }
+}
+
+.ani-bounce-2000 {
+  animation: bounce 2000ms infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.ani-bounce-single-2000 {
+  animation: bounce 2000ms linear;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.transition-delay-4000 {
+  transition-delay: 4000;
+}
+
+.transition-length-4000 {
+  transition-duration: 4000000;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.transition-color-4000 {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 4000;
+}
+
+.transition-size-4000 {
+  transition-property: width, height;
+  transition-duration: 4000;
+}
+
+.transition-width-4000 {
+  transition-property: width;
+  transition-duration: 4000;
+}
+
+.transition-height-4000 {
+  transition-property: height;
+  transition-duration: 4000;
+}
+
+.transition-location-4000 {
+  transition-property: left, right, align, text-align, padding, margin;
+  transition-duration: 4000;
+}
+
+.transition-left-4000 {
+  transition-property: left;
+  transition-duration: 4000;
+}
+
+.transition-right-4000 {
+  transition-property: right;
+  transition-duration: 4000;
+}
+
+.transition-align-4000 {
+  transition-property: align, text-align;
+  transition-duration: 4000;
+}
+
+.transition-rel-4000 {
+  transition-property: padding, margin;
+  transition-duration: 4000;
+}
+
+.ani-come-4000 {
+  animation: come 4000ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+    opacity: 0;
+  }
+}
+
+.ani-come-retain-4000 {
+  animation: come 4000ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+  }
+}
+
+.ani-go-4000 {
+  animation: go 4000ms linear;
+}
+@keyframes go {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    scale: 0;
+  }
+}
+
+.ani-bounce-4000 {
+  animation: bounce 4000ms infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.ani-bounce-single-4000 {
+  animation: bounce 4000ms linear;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.transition-delay-6000 {
+  transition-delay: 6000;
+}
+
+.transition-length-6000 {
+  transition-duration: 6000000;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.transition-color-6000 {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 6000;
+}
+
+.transition-size-6000 {
+  transition-property: width, height;
+  transition-duration: 6000;
+}
+
+.transition-width-6000 {
+  transition-property: width;
+  transition-duration: 6000;
+}
+
+.transition-height-6000 {
+  transition-property: height;
+  transition-duration: 6000;
+}
+
+.transition-location-6000 {
+  transition-property: left, right, align, text-align, padding, margin;
+  transition-duration: 6000;
+}
+
+.transition-left-6000 {
+  transition-property: left;
+  transition-duration: 6000;
+}
+
+.transition-right-6000 {
+  transition-property: right;
+  transition-duration: 6000;
+}
+
+.transition-align-6000 {
+  transition-property: align, text-align;
+  transition-duration: 6000;
+}
+
+.transition-rel-6000 {
+  transition-property: padding, margin;
+  transition-duration: 6000;
+}
+
+.ani-come-6000 {
+  animation: come 6000ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+    opacity: 0;
+  }
+}
+
+.ani-come-retain-6000 {
+  animation: come 6000ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+  }
+}
+
+.ani-go-6000 {
+  animation: go 6000ms linear;
+}
+@keyframes go {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    scale: 0;
+  }
+}
+
+.ani-bounce-6000 {
+  animation: bounce 6000ms infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.ani-bounce-single-6000 {
+  animation: bounce 6000ms linear;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.transition-delay-8000 {
+  transition-delay: 8000;
+}
+
+.transition-length-8000 {
+  transition-duration: 8000000;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.transition-color-8000 {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 8000;
+}
+
+.transition-size-8000 {
+  transition-property: width, height;
+  transition-duration: 8000;
+}
+
+.transition-width-8000 {
+  transition-property: width;
+  transition-duration: 8000;
+}
+
+.transition-height-8000 {
+  transition-property: height;
+  transition-duration: 8000;
+}
+
+.transition-location-8000 {
+  transition-property: left, right, align, text-align, padding, margin;
+  transition-duration: 8000;
+}
+
+.transition-left-8000 {
+  transition-property: left;
+  transition-duration: 8000;
+}
+
+.transition-right-8000 {
+  transition-property: right;
+  transition-duration: 8000;
+}
+
+.transition-align-8000 {
+  transition-property: align, text-align;
+  transition-duration: 8000;
+}
+
+.transition-rel-8000 {
+  transition-property: padding, margin;
+  transition-duration: 8000;
+}
+
+.ani-come-8000 {
+  animation: come 8000ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+    opacity: 0;
+  }
+}
+
+.ani-come-retain-8000 {
+  animation: come 8000ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+  }
+}
+
+.ani-go-8000 {
+  animation: go 8000ms linear;
+}
+@keyframes go {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    scale: 0;
+  }
+}
+
+.ani-bounce-8000 {
+  animation: bounce 8000ms infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.ani-bounce-single-8000 {
+  animation: bounce 8000ms linear;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.transition-delay-10000 {
+  transition-delay: 10000;
+}
+
+.transition-length-10000 {
+  transition-duration: 10000000;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.transition-color-10000 {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 10000;
+}
+
+.transition-size-10000 {
+  transition-property: width, height;
+  transition-duration: 10000;
+}
+
+.transition-width-10000 {
+  transition-property: width;
+  transition-duration: 10000;
+}
+
+.transition-height-10000 {
+  transition-property: height;
+  transition-duration: 10000;
+}
+
+.transition-location-10000 {
+  transition-property: left, right, align, text-align, padding, margin;
+  transition-duration: 10000;
+}
+
+.transition-left-10000 {
+  transition-property: left;
+  transition-duration: 10000;
+}
+
+.transition-right-10000 {
+  transition-property: right;
+  transition-duration: 10000;
+}
+
+.transition-align-10000 {
+  transition-property: align, text-align;
+  transition-duration: 10000;
+}
+
+.transition-rel-10000 {
+  transition-property: padding, margin;
+  transition-duration: 10000;
+}
+
+.ani-come-10000 {
+  animation: come 10000ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+    opacity: 0;
+  }
+}
+
+.ani-come-retain-10000 {
+  animation: come 10000ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+  }
+}
+
+.ani-go-10000 {
+  animation: go 10000ms linear;
+}
+@keyframes go {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    scale: 0;
+  }
+}
+
+.ani-bounce-10000 {
+  animation: bounce 10000ms infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.ani-bounce-single-10000 {
+  animation: bounce 10000ms linear;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.transition-delay-12000 {
+  transition-delay: 12000;
+}
+
+.transition-length-12000 {
+  transition-duration: 12000000;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.transition-color-12000 {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 12000;
+}
+
+.transition-size-12000 {
+  transition-property: width, height;
+  transition-duration: 12000;
+}
+
+.transition-width-12000 {
+  transition-property: width;
+  transition-duration: 12000;
+}
+
+.transition-height-12000 {
+  transition-property: height;
+  transition-duration: 12000;
+}
+
+.transition-location-12000 {
+  transition-property: left, right, align, text-align, padding, margin;
+  transition-duration: 12000;
+}
+
+.transition-left-12000 {
+  transition-property: left;
+  transition-duration: 12000;
+}
+
+.transition-right-12000 {
+  transition-property: right;
+  transition-duration: 12000;
+}
+
+.transition-align-12000 {
+  transition-property: align, text-align;
+  transition-duration: 12000;
+}
+
+.transition-rel-12000 {
+  transition-property: padding, margin;
+  transition-duration: 12000;
+}
+
+.ani-come-12000 {
+  animation: come 12000ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+    opacity: 0;
+  }
+}
+
+.ani-come-retain-12000 {
+  animation: come 12000ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+  }
+}
+
+.ani-go-12000 {
+  animation: go 12000ms linear;
+}
+@keyframes go {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    scale: 0;
+  }
+}
+
+.ani-bounce-12000 {
+  animation: bounce 12000ms infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.ani-bounce-single-12000 {
+  animation: bounce 12000ms linear;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.transition-delay-14000 {
+  transition-delay: 14000;
+}
+
+.transition-length-14000 {
+  transition-duration: 14000000;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.transition-color-14000 {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 14000;
+}
+
+.transition-size-14000 {
+  transition-property: width, height;
+  transition-duration: 14000;
+}
+
+.transition-width-14000 {
+  transition-property: width;
+  transition-duration: 14000;
+}
+
+.transition-height-14000 {
+  transition-property: height;
+  transition-duration: 14000;
+}
+
+.transition-location-14000 {
+  transition-property: left, right, align, text-align, padding, margin;
+  transition-duration: 14000;
+}
+
+.transition-left-14000 {
+  transition-property: left;
+  transition-duration: 14000;
+}
+
+.transition-right-14000 {
+  transition-property: right;
+  transition-duration: 14000;
+}
+
+.transition-align-14000 {
+  transition-property: align, text-align;
+  transition-duration: 14000;
+}
+
+.transition-rel-14000 {
+  transition-property: padding, margin;
+  transition-duration: 14000;
+}
+
+.ani-come-14000 {
+  animation: come 14000ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+    opacity: 0;
+  }
+}
+
+.ani-come-retain-14000 {
+  animation: come 14000ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+  }
+}
+
+.ani-go-14000 {
+  animation: go 14000ms linear;
+}
+@keyframes go {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    scale: 0;
+  }
+}
+
+.ani-bounce-14000 {
+  animation: bounce 14000ms infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.ani-bounce-single-14000 {
+  animation: bounce 14000ms linear;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.transition-delay-16000 {
+  transition-delay: 16000;
+}
+
+.transition-length-16000 {
+  transition-duration: 16000000;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.transition-color-16000 {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 16000;
+}
+
+.transition-size-16000 {
+  transition-property: width, height;
+  transition-duration: 16000;
+}
+
+.transition-width-16000 {
+  transition-property: width;
+  transition-duration: 16000;
+}
+
+.transition-height-16000 {
+  transition-property: height;
+  transition-duration: 16000;
+}
+
+.transition-location-16000 {
+  transition-property: left, right, align, text-align, padding, margin;
+  transition-duration: 16000;
+}
+
+.transition-left-16000 {
+  transition-property: left;
+  transition-duration: 16000;
+}
+
+.transition-right-16000 {
+  transition-property: right;
+  transition-duration: 16000;
+}
+
+.transition-align-16000 {
+  transition-property: align, text-align;
+  transition-duration: 16000;
+}
+
+.transition-rel-16000 {
+  transition-property: padding, margin;
+  transition-duration: 16000;
+}
+
+.ani-come-16000 {
+  animation: come 16000ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+    opacity: 0;
+  }
+}
+
+.ani-come-retain-16000 {
+  animation: come 16000ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+  }
+}
+
+.ani-go-16000 {
+  animation: go 16000ms linear;
+}
+@keyframes go {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    scale: 0;
+  }
+}
+
+.ani-bounce-16000 {
+  animation: bounce 16000ms infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.ani-bounce-single-16000 {
+  animation: bounce 16000ms linear;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.transition-delay-18000 {
+  transition-delay: 18000;
+}
+
+.transition-length-18000 {
+  transition-duration: 18000000;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.transition-color-18000 {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 18000;
+}
+
+.transition-size-18000 {
+  transition-property: width, height;
+  transition-duration: 18000;
+}
+
+.transition-width-18000 {
+  transition-property: width;
+  transition-duration: 18000;
+}
+
+.transition-height-18000 {
+  transition-property: height;
+  transition-duration: 18000;
+}
+
+.transition-location-18000 {
+  transition-property: left, right, align, text-align, padding, margin;
+  transition-duration: 18000;
+}
+
+.transition-left-18000 {
+  transition-property: left;
+  transition-duration: 18000;
+}
+
+.transition-right-18000 {
+  transition-property: right;
+  transition-duration: 18000;
+}
+
+.transition-align-18000 {
+  transition-property: align, text-align;
+  transition-duration: 18000;
+}
+
+.transition-rel-18000 {
+  transition-property: padding, margin;
+  transition-duration: 18000;
+}
+
+.ani-come-18000 {
+  animation: come 18000ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+    opacity: 0;
+  }
+}
+
+.ani-come-retain-18000 {
+  animation: come 18000ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+  }
+}
+
+.ani-go-18000 {
+  animation: go 18000ms linear;
+}
+@keyframes go {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    scale: 0;
+  }
+}
+
+.ani-bounce-18000 {
+  animation: bounce 18000ms infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.ani-bounce-single-18000 {
+  animation: bounce 18000ms linear;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.transition-delay-20000 {
+  transition-delay: 20000;
+}
+
+.transition-length-20000 {
+  transition-duration: 20000000;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.transition-color-20000 {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 20000;
+}
+
+.transition-size-20000 {
+  transition-property: width, height;
+  transition-duration: 20000;
+}
+
+.transition-width-20000 {
+  transition-property: width;
+  transition-duration: 20000;
+}
+
+.transition-height-20000 {
+  transition-property: height;
+  transition-duration: 20000;
+}
+
+.transition-location-20000 {
+  transition-property: left, right, align, text-align, padding, margin;
+  transition-duration: 20000;
+}
+
+.transition-left-20000 {
+  transition-property: left;
+  transition-duration: 20000;
+}
+
+.transition-right-20000 {
+  transition-property: right;
+  transition-duration: 20000;
+}
+
+.transition-align-20000 {
+  transition-property: align, text-align;
+  transition-duration: 20000;
+}
+
+.transition-rel-20000 {
+  transition-property: padding, margin;
+  transition-duration: 20000;
+}
+
+.ani-come-20000 {
+  animation: come 20000ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+    opacity: 0;
+  }
+}
+
+.ani-come-retain-20000 {
+  animation: come 20000ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+  }
+}
+
+.ani-go-20000 {
+  animation: go 20000ms linear;
+}
+@keyframes go {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    scale: 0;
+  }
+}
+
+.ani-bounce-20000 {
+  animation: bounce 20000ms infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.ani-bounce-single-20000 {
+  animation: bounce 20000ms linear;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.transition-delay-22000 {
+  transition-delay: 22000;
+}
+
+.transition-length-22000 {
+  transition-duration: 22000000;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.transition-color-22000 {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 22000;
+}
+
+.transition-size-22000 {
+  transition-property: width, height;
+  transition-duration: 22000;
+}
+
+.transition-width-22000 {
+  transition-property: width;
+  transition-duration: 22000;
+}
+
+.transition-height-22000 {
+  transition-property: height;
+  transition-duration: 22000;
+}
+
+.transition-location-22000 {
+  transition-property: left, right, align, text-align, padding, margin;
+  transition-duration: 22000;
+}
+
+.transition-left-22000 {
+  transition-property: left;
+  transition-duration: 22000;
+}
+
+.transition-right-22000 {
+  transition-property: right;
+  transition-duration: 22000;
+}
+
+.transition-align-22000 {
+  transition-property: align, text-align;
+  transition-duration: 22000;
+}
+
+.transition-rel-22000 {
+  transition-property: padding, margin;
+  transition-duration: 22000;
+}
+
+.ani-come-22000 {
+  animation: come 22000ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+    opacity: 0;
+  }
+}
+
+.ani-come-retain-22000 {
+  animation: come 22000ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+  }
+}
+
+.ani-go-22000 {
+  animation: go 22000ms linear;
+}
+@keyframes go {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    scale: 0;
+  }
+}
+
+.ani-bounce-22000 {
+  animation: bounce 22000ms infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.ani-bounce-single-22000 {
+  animation: bounce 22000ms linear;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.transition-delay-24000 {
+  transition-delay: 24000;
+}
+
+.transition-length-24000 {
+  transition-duration: 24000000;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.transition-color-24000 {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 24000;
+}
+
+.transition-size-24000 {
+  transition-property: width, height;
+  transition-duration: 24000;
+}
+
+.transition-width-24000 {
+  transition-property: width;
+  transition-duration: 24000;
+}
+
+.transition-height-24000 {
+  transition-property: height;
+  transition-duration: 24000;
+}
+
+.transition-location-24000 {
+  transition-property: left, right, align, text-align, padding, margin;
+  transition-duration: 24000;
+}
+
+.transition-left-24000 {
+  transition-property: left;
+  transition-duration: 24000;
+}
+
+.transition-right-24000 {
+  transition-property: right;
+  transition-duration: 24000;
+}
+
+.transition-align-24000 {
+  transition-property: align, text-align;
+  transition-duration: 24000;
+}
+
+.transition-rel-24000 {
+  transition-property: padding, margin;
+  transition-duration: 24000;
+}
+
+.ani-come-24000 {
+  animation: come 24000ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+    opacity: 0;
+  }
+}
+
+.ani-come-retain-24000 {
+  animation: come 24000ms linear;
+}
+@keyframes come {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    scale: 100;
+  }
+}
+
+.ani-go-24000 {
+  animation: go 24000ms linear;
+}
+@keyframes go {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    scale: 0;
+  }
+}
+
+.ani-bounce-24000 {
+  animation: bounce 24000ms infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.ani-bounce-single-24000 {
+  animation: bounce 24000ms linear;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.ease-in {
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
+.ease-out {
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+.ease {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
