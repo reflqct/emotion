@@ -1,0 +1,24 @@
+{
+  "name": "emotion",
+  "version": "1.0.0",
+  "description": "A CSS library oriented around transitions, colours and adding emotion to your project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reflqct/emotion.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reflqct/emotion/issues"
+  },
+  "homepage": "https://github.com/reflqct/emotion#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.57.1"
+  }
+}
